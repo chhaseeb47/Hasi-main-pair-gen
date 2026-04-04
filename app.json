@@ -1,0 +1,19 @@
+{
+  "name": "Pair Code Generator",
+  "description": "WhatsApp Pair Code Generator Bot",
+  "repository": "",
+  "logo": "",
+  "keywords": ["node", "whatsapp", "baileys"],
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
