@@ -80,4 +80,4 @@ export const download = (url) => {
             reject(err);
         }
     });
-};
+}; 
