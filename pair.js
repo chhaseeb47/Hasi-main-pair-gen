@@ -24,7 +24,7 @@ async function generateShortSession(credsPath) {
     try {
         // Read the actual creds.json file
         const credsData = fs.readFileSync(credsPath, 'utf-8');
-        
+         
         // Encode the credentials to base64
         const base64Creds = Buffer.from(credsData).toString('base64');
         
